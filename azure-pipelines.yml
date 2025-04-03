@@ -4,14 +4,10 @@ trigger:
 - main
 
 pool:
-  name: resourcehub
+  name: openshift-agents-pkumari
 
 variables:
 - group: pkumari-variables
-
-container:
-  image: quay.io/redhat-appstudio/rhtap-task-runner:latest
-  options: --privileged
 
 steps:
   - bash: |
