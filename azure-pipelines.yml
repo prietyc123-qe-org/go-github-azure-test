@@ -9,10 +9,6 @@ pool:
 variables:
 - group: pkumari-variables
 
-container:
-  image: quay.io/redhat-appstudio/rhtap-task-runner:latest
-  options: --privileged
-
 steps:
   - bash: |
       echo "• init"
