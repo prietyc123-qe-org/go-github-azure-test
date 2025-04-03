@@ -4,7 +4,7 @@ trigger:
 - main
 
 pool:
-  name: resourcehub
+  name: openshift-agents-pkumari
 
 variables:
 - group: pkumari-variables
